@@ -1,9 +1,9 @@
 {
-  "name": "starter-node",
+  "name": "react-toukey-hook",
   "version": "1.0.2",
-  "description": "Simple Start Template",
-  "main": "dist/ssprojet.cjs",
-  "module": "dist/ssprojet.mjs",
+  "description": "Toukey's react hook (>_<)",
+  "main": "dist/react-toukey-hook.cjs",
+  "module": "dist/react-toukey-hook.mjs",
   "types": "dist/src/index.d.ts",
   "scripts": {
     "build": "rollup -c rollup.config.mjs",
@@ -42,6 +42,8 @@
     "lint-staged": "^13.0.3",
     "prettier": "^2.6.0",
     "prettier-eslint": "^13.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rollup": "^3.2.2",
     "rollup-plugin-filesize": "^9.1.2",
     "rollup-plugin-terser": "^7.0.2",
