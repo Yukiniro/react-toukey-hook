@@ -1,6 +1,6 @@
 {
   "name": "react-toukey-hook",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Toukey's react hook (>_<)",
   "main": "dist/react-toukey-hook.cjs",
   "module": "dist/react-toukey-hook.mjs",
@@ -16,10 +16,18 @@
     "prepare": "npx husky install"
   },
   "keywords": [
-    "vite",
-    "vitest",
-    "docusaurus",
-    "template"
+    "toukey",
+    "useToukey",
+    "react",
+    "hook",
+    "hooks",
+    "keyboard",
+    "keyboardevent",
+    "shortcut",
+    "hotkey",
+    "event",
+    "keydown",
+    "keyup"
   ],
   "author": "Yukiniro",
   "license": "MIT",
