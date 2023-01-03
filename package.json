@@ -1,6 +1,6 @@
 {
   "name": "react-toukey-hook",
-  "version": "1.0.2",
+  "version": "0.0.1",
   "description": "Toukey's react hook (>_<)",
   "main": "dist/react-toukey-hook.cjs",
   "module": "dist/react-toukey-hook.mjs",
@@ -12,7 +12,7 @@
     "test": "npx vitest",
     "test:run": "npx vitest run",
     "test:coverrage": "npx vitest --coverage",
-    "publish": "npm run test:run && npm run build && npm publish",
+    "publish": "npm run build && npm publish",
     "prepare": "npx husky install"
   },
   "keywords": [
@@ -36,6 +36,8 @@
     "@rollup/plugin-commonjs": "^22.0.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-typescript": "^8.3.1",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
     "@yukiniro/eslint-config": "^0.0.3",
     "eslint": "^8.11.0",
     "husky": "^8.0.1",
@@ -51,5 +53,8 @@
     "tslib": "^2.3.1",
     "typescript": "^4.6.4",
     "vitest": "^0.24.3"
+  },
+  "dependencies": {
+    "toukey": "^1.2.3"
   }
 }

@@ -1,21 +1,28 @@
-# starter-node
+# react-toukey-hook
 
-![NPM](https://img.shields.io/npm/l/ssprojet?color=blue&style=flat-square) ![npm](https://img.shields.io/npm/v/ssprojet?color=blue&style=flat-square)
+![NPM](https://img.shields.io/npm/l/react-toukey-hook?color=blue&style=flat-square) ![npm](https://img.shields.io/npm/v/react-toukey-hook?color=blue&style=flat-square)
 
-The `starter-node` is a template to start a node project.
+## Install
 
-## Features
+```shell
+npm i react-toukey-hook -S
+```
 
-- `pnpm` - package manager
-- `vitest` - test library
-- `docusaurus` - document library
-- `prettier` - code style formate
-- `eslint` - code quality
-- `husky` - pre-commit
-- `lint-staged` - auto lint for staged files
+or
 
-## How to use
+```shell
+pnpm add react-toukey-hoos -S
+```
 
-You could use `degit Yukiniro/ssprojet your-project-name` to create a project.
+## Basic Use
 
-If you have no `degit`. Please install it by `npm install -g degit`.
+```javascript
+import { useToukey } from "react-toukey-hook";
+
+function App() {
+  useTouke("space", () => {
+    console.log("space pressed");
+  });
+  return <div>hello world</div>;
+}
+```
