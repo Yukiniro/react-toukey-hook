@@ -28,6 +28,7 @@ function getConfig(libraryName) {
       }),
       fileSize(),
     ],
+    external: ["react", "react-dom"],
   };
 }
 

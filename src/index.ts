@@ -13,4 +13,4 @@ function useToukey(
 }
 
 export * from "toukey";
-export default { useToukey };
+export { useToukey };
