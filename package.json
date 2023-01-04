@@ -1,6 +1,6 @@
 {
   "name": "react-toukey-hook",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Toukey's react hook (>_<)",
   "main": "dist/react-toukey-hook.cjs",
   "module": "dist/react-toukey-hook.mjs",
@@ -33,7 +33,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Yukiniro/ssprojet"
+    "url": "https://github.com/Yukiniro/react-toukey-hook"
   },
   "devDependencies": {
     "@babel/core": "^7.17.8",
